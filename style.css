@@ -1,0 +1,41 @@
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+.foto_avatar {
+    width: 50px;
+    height: 50px;
+}
+
+.rede_social {
+    width: 20px;
+    height: 20px;
+}
+
+#alura_book {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
+    100%), url('img/portfolio/alura_book.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#ranger_flix {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
+    100%), url('img/portfolio/ranger_flix.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#mundo_invertido {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
+    100%), url('img/portfolio/mundo_invertido.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+a {
+    text-decoration: none;
+}
