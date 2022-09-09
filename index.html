@@ -180,18 +180,20 @@
     </div>
     <div class="container px-4 py-5" id="contato">
       <h2 class="pb-2 border-bottom">Contato</h2>
-      <form>
+      <form action="envio.php" method="POST">
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">Nome:</label>
-          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="José da Silva">
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="José da Silva" name="nome" required>
         </div>
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">Email:</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="email" required>
         </div>
         <div class="mb-3">
           <label for="exampleFormControlTextarea1" class="form-label">Mensagem:</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="conteudo" required></textarea>
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_next" value="Retorno sobre o Portifolio">
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
@@ -205,10 +207,10 @@
           <img src="img/avataaars.png" alt="foto avatar" width="50" height="50" class="d-inline-block align-text-top">
         </a>
         <div>
-          <a href="https://www.facebook.com/caique.albas"><img src="img/facebook.svg" alt="facebook" class="rede_social"></a>
-          <a href="https://www.instagram.com/caiquealbutti/"><img src="img/instagram.svg" alt="intagram" class="rede_social"></a>
-          <a href="https://github.com/albutti"><img src="img/github.svg" alt="github" class="rede_social"></a>
-          <a href="https://www.linkedin.com/in/caique-alba-buttignon-4aa7199a/"><img src="img/linkedin.svg" alt="linkedin" class="rede_social"></a>
+          <a href="https://www.facebook.com/caique.alba" target="_blank" rel="external"><img src="img/facebook.svg" alt="facebook" class="rede_social"></a>
+          <a href="https://www.instagram.com/caiquealbutti/" target="_blank" rel="external"><img src="img/instagram.svg" alt="intagram" class="rede_social"></a>
+          <a href="https://github.com/albutti" target="_blank" rel="external"><img src="img/github.svg" alt="github" class="rede_social"></a>
+          <a href="https://www.linkedin.com/in/caique-alba-buttignon-4aa7199a/" target="_blank" rel="external"><img src="img/linkedin.svg" alt="linkedin" class="rede_social"></a>
         </div>
       </footer>
     </div>
