@@ -8,11 +8,6 @@
     height: 50px;
 }
 
-.rede_social {
-    width: 20px;
-    height: 20px;
-}
-
 #alura_book {
     background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
     100%), url('img/portfolio/alura_book.png');
@@ -38,4 +33,59 @@
 }
 a {
     text-decoration: none;
+}
+
+.texto_branco {
+    color: white;
+}
+
+.ferramenta_portifolio {
+    background-color: rgb(30, 137, 230);
+    padding: 5px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.contato {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 50px;
+}
+
+.email {
+    align-items: center;
+}
+
+#item_contato_e {
+    color: #0364b8;
+}
+
+#item_contato_e:hover {
+    background-color: #0364b8;
+    color: rgb(250, 250, 250);
+}
+
+#item_contato_w {
+    color: rgb(7, 141, 0);;
+}
+
+#item_contato_w:hover {
+    background-color: rgb(7, 141, 0);
+    color: rgb(250, 250, 250);
+}
+
+.lead {
+    text-align: justify;
+}
+
+footer {
+    display: flex;
+}
+
+#inst:hover {
+    color: rgb(247, 13, 169)
+}
+
+#git:hover {
+    color: blueviolet;
 }
