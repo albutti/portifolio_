@@ -8,15 +8,24 @@
     height: 50px;
 }
 
-#alura_book {
+#home {
+    padding-bottom: 45px;
+}
+
+#campo_trabalhos {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+#fantastica {
     background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
-    100%), url('img/portfolio/alura_book.png');
+    100%), url('img/portfolio/galo.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-#ranger_flix {
+#tempestade {
     background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
     100%), url('img/portfolio/ranger_flix.png');
     background-size: cover;
@@ -24,15 +33,25 @@
     background-repeat: no-repeat;
 }
 
-#mundo_invertido {
+#assis {
     background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
     100%), url('img/portfolio/mundo_invertido.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
+#contato {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 a {
     text-decoration: none;
+}
+
+h3 {
+    text-align: center;
 }
 
 .texto_branco {
