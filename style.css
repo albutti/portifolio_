@@ -19,7 +19,7 @@
 
 #fantastica {
     background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
-    100%), url('img/portfolio/galo.jpg');
+    100%), url('img/galo.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,7 +27,7 @@
 
 #tempestade {
     background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
-    100%), url('img/portfolio/ranger_flix.png');
+    100%), url('img/tempestade.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -35,7 +35,71 @@
 
 #assis {
     background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
-    100%), url('img/portfolio/mundo_invertido.png');
+    100%), url('img/assis.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#visita {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
+    100%), url('img/visita.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#leais {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
+    100%), url('img/os\ leais.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#benvinda {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
+    100%), url('img/benvinda.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#lis {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
+    100%), url('img/lisistrata.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#magico {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
+    100%), url('img/abracadabra.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#abracadabra {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
+    100%), url('img/abracadabra.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#dna2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
+    100%), url('img/rio\ de\ sangue.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#rio_de_sangue {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
+    100%), url('img/rio\ de\ sangue.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -46,7 +110,12 @@
     padding-bottom: 30px;
 }
 
-a {
+#campo_de_trabalho {
+    height: 394px;
+    width: 364px;
+}
+
+.col {
     text-decoration: none;
 }
 
